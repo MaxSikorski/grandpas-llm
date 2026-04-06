@@ -8,7 +8,7 @@ Because they taught you how to tie your shoes. The least you can do is fix their
 
 ## The Problem
 
-You're the family tech person. You got the job not because you applied, but because you once connected a printer in 2014 and now you're IT support for life.
+You're the family tech person. You got the job not because you applied, but because you once connected a printer 12 years ago and now you're IT support for life.
 
 Your grandpa calls when "the computer is slow." Your mom calls when "my file disappeared." Your dad's friend Larry calls when "the Google isn't working." You want to help — but maybe you're a Mac user, or you just don't remember where Windows buries that one setting. And you *definitely* don't want to accidentally break the one machine they rely on to check email and watch YouTube videos about woodworking (or gospel music, or how to grow tomatoes — you know your person).
 
@@ -35,7 +35,7 @@ A single markdown file ([WINDOWS-HELPER-SKILL.md](./WINDOWS-HELPER-SKILL.md)) th
 1. **Set up your API access** on their machine. Use a temporary, spend-capped API key. (Pro tip: set it to expire in 24 hours so you're not funding a rogue AI on grandpa's Dell.)
 2. **Feed the skill file to your model.** Either paste the raw GitHub URL or copy the contents directly:
    ```
-   https://raw.githubusercontent.com/YOUR_USERNAME/grandpas-llm/main/WINDOWS-HELPER-SKILL.md
+   https://raw.githubusercontent.com/MaxSikorski/grandpas-llm/main/WINDOWS-HELPER-SKILL.md
    ```
 3. **Start with Phase 1.** Tell the model to walk you through a system assessment. Copy-paste the PowerShell commands it gives you. Marvel at the 47 startup programs.
 4. **Work through the issues.** "Their computer is slow" → Phase 2. "They lost a file" → Phase 3 (it's in Downloads, it's *always* in Downloads). "I want to check for malware" → Phase 4.
